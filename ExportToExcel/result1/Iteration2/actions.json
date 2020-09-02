@@ -1,0 +1,232 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP23",
+                "stepName": "Url: external",
+                "infFile": "t1.inf",
+                "time": 1599036847102
+            },
+            {
+                "stepId": "STEP24",
+                "stepName": "Submit Data: authenticate",
+                "infFile": "t3.inf",
+                "time": 1599036847955
+            },
+            {
+                "stepId": "STEP25",
+                "stepName": "Url: 10.100.22.243:8081",
+                "infFile": "t6.inf",
+                "time": 1599036852047
+            },
+            {
+                "stepId": "STEP26",
+                "stepName": "Submit Data: 1_2",
+                "infFile": "t39.inf",
+                "time": 1599036860761
+            },
+            {
+                "stepId": "STEP27",
+                "stepName": "Url: queue_2",
+                "infFile": "t40.inf",
+                "time": 1599036861750
+            },
+            {
+                "stepId": "STEP28",
+                "stepName": "Submit Data: 2_11",
+                "infFile": "t64.inf",
+                "time": 1599036869729
+            },
+            {
+                "stepId": "STEP29",
+                "stepName": "Submit Data: saveState_9",
+                "infFile": "t65.inf",
+                "time": 1599036870782
+            },
+            {
+                "stepId": "STEP30",
+                "stepName": "Custom Request: saveState_10",
+                "infFile": "t66.inf",
+                "time": 1599036871774
+            },
+            {
+                "stepId": "STEP31",
+                "stepName": "Submit Data: 2_12",
+                "infFile": "t67.inf",
+                "time": 1599036872769
+            },
+            {
+                "stepId": "STEP32",
+                "stepName": "Submit Data: saveState_11",
+                "infFile": "t68.inf",
+                "time": 1599036873775
+            },
+            {
+                "stepId": "STEP33",
+                "stepName": "Submit Data: 2_13",
+                "infFile": "t69.inf",
+                "time": 1599036874787
+            },
+            {
+                "stepId": "STEP34",
+                "stepName": "Submit Data: saveState_12",
+                "infFile": "t70.inf",
+                "time": 1599036875827
+            },
+            {
+                "stepId": "STEP35",
+                "stepName": "Submit Data: export",
+                "infFile": "t71.inf",
+                "time": 1599036877691
+            },
+            {
+                "stepId": "STEP36",
+                "stepName": "Submit Data: 2_14",
+                "infFile": "t72.inf",
+                "time": 1599036879548
+            },
+            {
+                "stepId": "STEP37",
+                "stepName": "Submit Data: saveState_13",
+                "infFile": "t73.inf",
+                "time": 1599036881245
+            },
+            {
+                "stepId": "STEP38",
+                "stepName": "Custom Request: saveState_14",
+                "infFile": "t74.inf",
+                "time": 1599036882258
+            },
+            {
+                "stepId": "STEP39",
+                "stepName": "Submit Data: 2_15",
+                "infFile": "t75.inf",
+                "time": 1599036884725
+            },
+            {
+                "stepId": "STEP40",
+                "stepName": "Submit Data: saveState_15",
+                "infFile": "t76.inf",
+                "time": 1599036885690
+            },
+            {
+                "stepId": "STEP41",
+                "stepName": "Submit Data: 2_16",
+                "infFile": "t77.inf",
+                "time": 1599036886678
+            },
+            {
+                "stepId": "STEP42",
+                "stepName": "Submit Data: saveState_16",
+                "infFile": "t78.inf",
+                "time": 1599036887674
+            },
+            {
+                "stepId": "STEP43",
+                "stepName": "Url: 10.100.22.34:8083",
+                "infFile": "t79.inf",
+                "time": 1599036888674
+            },
+            {
+                "stepId": "STEP44",
+                "stepName": "Url: Logout",
+                "infFile": "t80.inf",
+                "time": 1599036890148
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "ExportToExcel_01_OpenApplication",
+                "rawStartTime": 1599036846258,
+                "rawEndTime": 1599036847123,
+                "thinkTime": 0.0,
+                "wastedTime": 0.008751869201660157
+            },
+            {
+                "transactionName": "ExportToExcel_02_Login",
+                "rawStartTime": 1599036847127,
+                "rawEndTime": 1599036848806,
+                "thinkTime": 0.0,
+                "wastedTime": 0.018801212310791017
+            },
+            {
+                "transactionName": "ExportToExcel_03_NavigateToPVIntake",
+                "rawStartTime": 1599036848810,
+                "rawEndTime": 1599036860763,
+                "thinkTime": 0.0,
+                "wastedTime": 0.1509866714477539
+            },
+            {
+                "transactionName": "ExportToExcel_04_IntakeQueueMyCases",
+                "rawStartTime": 1599036860767,
+                "rawEndTime": 1599036866591,
+                "thinkTime": 0.0,
+                "wastedTime": 0.07979059219360352
+            },
+            {
+                "transactionName": "ExportToExcel_05_IntakeQueueAllCases",
+                "rawStartTime": 1599036866596,
+                "rawEndTime": 1599036870784,
+                "thinkTime": 0.0,
+                "wastedTime": 0.08111286163330078
+            },
+            {
+                "transactionName": "ExportToExcel_06_FilterIntakeCases",
+                "rawStartTime": 1599036870789,
+                "rawEndTime": 1599036873777,
+                "thinkTime": 0.0,
+                "wastedTime": 0.02831125259399414
+            },
+            {
+                "transactionName": "ExportToExcel_07_FilterPageSize_100",
+                "rawStartTime": 1599036873782,
+                "rawEndTime": 1599036875829,
+                "thinkTime": 0.0,
+                "wastedTime": 0.02805471420288086
+            },
+            {
+                "transactionName": "ExportToExcel_08_ExportToExcel",
+                "rawStartTime": 1599036875833,
+                "rawEndTime": 1599036878416,
+                "thinkTime": 0.0,
+                "wastedTime": 0.027238130569458009
+            },
+            {
+                "transactionName": "ExportToExcel_09_FilterPageSize_25",
+                "rawStartTime": 1599036878420,
+                "rawEndTime": 1599036881247,
+                "thinkTime": 0.0,
+                "wastedTime": 0.01851940155029297
+            },
+            {
+                "transactionName": "ExportToExcel_10_ClearFilter",
+                "rawStartTime": 1599036881251,
+                "rawEndTime": 1599036885692,
+                "thinkTime": 0.0,
+                "wastedTime": 0.08949494361877442
+            },
+            {
+                "transactionName": "ExportToExcel_11_IntakeQueueMyCases",
+                "rawStartTime": 1599036885695,
+                "rawEndTime": 1599036887676,
+                "thinkTime": 0.0,
+                "wastedTime": 0.01957559585571289
+            },
+            {
+                "transactionName": "ExportToExcel_12_NavigateToPVAdmin",
+                "rawStartTime": 1599036887679,
+                "rawEndTime": 1599036888686,
+                "thinkTime": 0.0,
+                "wastedTime": 0.009389162063598633
+            },
+            {
+                "transactionName": "ExportToExcel_13_LogOut",
+                "rawStartTime": 1599036888690,
+                "rawEndTime": 1599036890150,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0199887752532959
+            }
+        ]
+    }
+]

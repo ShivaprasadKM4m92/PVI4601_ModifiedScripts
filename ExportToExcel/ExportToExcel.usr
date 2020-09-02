@@ -1,0 +1,74 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=ExportToExcel.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2020
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2020.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2020.0.0.0
+DisableRegenerate=0
+Encoding=UTF8
+Description=
+ScriptLocale=en-IN
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="ExportToExcel_01_OpenApplication__*delimiter*__ExportToExcel_02_Login__*delimiter*__ExportToExcel_03_NavigateToPVIntake__*delimiter*__ExportToExcel_04_IntakeQueueMyCases__*delimiter*__ExportToExcel_05_IntakeQueueAllCases__*delimiter*__ExportToExcel_06_FilterIntakeCases__*delimiter*__ExportToExcel_07_FilterPageSize_100__*delimiter*__ExportToExcel_08_ExportToExcel__*delimiter*__ExportToExcel_09_FilterPageSize_25__*delimiter*__ExportToExcel_10_ClearFilter__*delimiter*__ExportToExcel_11_IntakeQueueMyCases__*delimiter*__ExportToExcel_12_NavigateToPVAdmin__*delimiter*__ExportToExcel_13_LogOut"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+ExportToExcel_01_OpenApplication=
+ExportToExcel_02_Login=
+ExportToExcel_03_NavigateToPVIntake=
+ExportToExcel_04_IntakeQueueMyCases=
+ExportToExcel_05_IntakeQueueAllCases=
+ExportToExcel_06_FilterIntakeCases=
+ExportToExcel_07_FilterPageSize_100=
+ExportToExcel_08_ExportToExcel=
+ExportToExcel_09_FilterPageSize_25=
+ExportToExcel_10_ClearFilter=
+ExportToExcel_11_IntakeQueueMyCases=
+ExportToExcel_12_NavigateToPVAdmin=
+ExportToExcel_13_LogOut=

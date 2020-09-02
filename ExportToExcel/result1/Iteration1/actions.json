@@ -1,0 +1,232 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: external",
+                "infFile": "t1.inf",
+                "time": 1599036782948
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: authenticate",
+                "infFile": "t3.inf",
+                "time": 1599036794856
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: 10.100.22.243:8081",
+                "infFile": "t7.inf",
+                "time": 1599036801549
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: 1_2",
+                "infFile": "t40.inf",
+                "time": 1599036818522
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: queue_2",
+                "infFile": "t41.inf",
+                "time": 1599036819593
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: 2_11",
+                "infFile": "t65.inf",
+                "time": 1599036826166
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Submit Data: saveState_9",
+                "infFile": "t66.inf",
+                "time": 1599036827064
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Custom Request: saveState_10",
+                "infFile": "t67.inf",
+                "time": 1599036828070
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Submit Data: 2_12",
+                "infFile": "t68.inf",
+                "time": 1599036829073
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Submit Data: saveState_11",
+                "infFile": "t69.inf",
+                "time": 1599036830072
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Submit Data: 2_13",
+                "infFile": "t70.inf",
+                "time": 1599036831083
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Submit Data: saveState_12",
+                "infFile": "t71.inf",
+                "time": 1599036832090
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Submit Data: export",
+                "infFile": "t72.inf",
+                "time": 1599036833958
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Submit Data: 2_14",
+                "infFile": "t73.inf",
+                "time": 1599036835815
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Submit Data: saveState_13",
+                "infFile": "t74.inf",
+                "time": 1599036836818
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Custom Request: saveState_14",
+                "infFile": "t75.inf",
+                "time": 1599036837825
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Submit Data: 2_15",
+                "infFile": "t76.inf",
+                "time": 1599036839724
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Submit Data: saveState_15",
+                "infFile": "t77.inf",
+                "time": 1599036840818
+            },
+            {
+                "stepId": "STEP19",
+                "stepName": "Submit Data: 2_16",
+                "infFile": "t78.inf",
+                "time": 1599036841901
+            },
+            {
+                "stepId": "STEP20",
+                "stepName": "Submit Data: saveState_16",
+                "infFile": "t79.inf",
+                "time": 1599036842861
+            },
+            {
+                "stepId": "STEP21",
+                "stepName": "Url: 10.100.22.34:8083",
+                "infFile": "t80.inf",
+                "time": 1599036843850
+            },
+            {
+                "stepId": "STEP22",
+                "stepName": "Url: Logout",
+                "infFile": "t81.inf",
+                "time": 1599036846234
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "ExportToExcel_01_OpenApplication",
+                "rawStartTime": 1599036781321,
+                "rawEndTime": 1599036793061,
+                "thinkTime": 0.0,
+                "wastedTime": 0.12796807289123536
+            },
+            {
+                "transactionName": "ExportToExcel_02_Login",
+                "rawStartTime": 1599036793067,
+                "rawEndTime": 1599036798265,
+                "thinkTime": 0.0,
+                "wastedTime": 0.14296293258666993
+            },
+            {
+                "transactionName": "ExportToExcel_03_NavigateToPVIntake",
+                "rawStartTime": 1599036798270,
+                "rawEndTime": 1599036818525,
+                "thinkTime": 0.0,
+                "wastedTime": 0.57198166847229
+            },
+            {
+                "transactionName": "ExportToExcel_04_IntakeQueueMyCases",
+                "rawStartTime": 1599036818529,
+                "rawEndTime": 1599036824303,
+                "thinkTime": 0.0,
+                "wastedTime": 0.06613945960998535
+            },
+            {
+                "transactionName": "ExportToExcel_05_IntakeQueueAllCases",
+                "rawStartTime": 1599036824307,
+                "rawEndTime": 1599036827066,
+                "thinkTime": 0.0,
+                "wastedTime": 0.051314353942871097
+            },
+            {
+                "transactionName": "ExportToExcel_06_FilterIntakeCases",
+                "rawStartTime": 1599036827070,
+                "rawEndTime": 1599036830074,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0157773494720459
+            },
+            {
+                "transactionName": "ExportToExcel_07_FilterPageSize_100",
+                "rawStartTime": 1599036830078,
+                "rawEndTime": 1599036832092,
+                "thinkTime": 0.0,
+                "wastedTime": 0.017783641815185548
+            },
+            {
+                "transactionName": "ExportToExcel_08_ExportToExcel",
+                "rawStartTime": 1599036832096,
+                "rawEndTime": 1599036834632,
+                "thinkTime": 0.0,
+                "wastedTime": 0.015967369079589845
+            },
+            {
+                "transactionName": "ExportToExcel_09_FilterPageSize_25",
+                "rawStartTime": 1599036834636,
+                "rawEndTime": 1599036836820,
+                "thinkTime": 0.0,
+                "wastedTime": 0.011597394943237305
+            },
+            {
+                "transactionName": "ExportToExcel_10_ClearFilter",
+                "rawStartTime": 1599036836824,
+                "rawEndTime": 1599036840820,
+                "thinkTime": 0.0,
+                "wastedTime": 0.06929707527160645
+            },
+            {
+                "transactionName": "ExportToExcel_11_IntakeQueueMyCases",
+                "rawStartTime": 1599036840826,
+                "rawEndTime": 1599036842863,
+                "thinkTime": 0.0,
+                "wastedTime": 0.011390209197998047
+            },
+            {
+                "transactionName": "ExportToExcel_12_NavigateToPVAdmin",
+                "rawStartTime": 1599036842867,
+                "rawEndTime": 1599036844247,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00980234146118164
+            },
+            {
+                "transactionName": "ExportToExcel_13_LogOut",
+                "rawStartTime": 1599036844251,
+                "rawEndTime": 1599036846236,
+                "thinkTime": 0.0,
+                "wastedTime": 0.008169412612915039
+            }
+        ]
+    }
+]

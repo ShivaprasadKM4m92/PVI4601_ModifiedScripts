@@ -1,0 +1,849 @@
+[API Trapper      (47ac: bc0)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (1534:464c)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (40c0:44d0)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (40c0:264c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (40c0:264c)] Load Network Traffic Analyzers:
+[Network Analyzer (40c0:264c)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (40c0:264c)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (40c0:264c)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (40c0:264c)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (40c0:264c)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (40c0:264c)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (40c0:264c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (40c0:36f8)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 10.100.22.34:8083   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Web Request      (40c0:36f8)] "GET /external"   
+[Network Analyzer (40c0:36f8)]   (Sid:  1) Client -> Server @ : 443 bytes (Service=HTTP)
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 35.186.235.23:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 216.58.196.77:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (40c0:27b4)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (40c0:36f8)]   (Sid:  1) Server -> Client : 1609 bytes  (Service=HTTP)
+[Network Analyzer (40c0:27b4)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (40c0:36f8)] "GET /assets/vendorUi/bootstrap.min.css"   
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:36f8)]   (Sid:  1) Client -> Server @ : 419 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /libs/mixpanel-2.2.min.js"   
+[Network Analyzer (40c0:36f8)]   (Sid:  2) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 10.100.22.34:8083   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 10.100.22.34:8083   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (40c0:36f8)] "GET /assets/login-17e4cb116ee46711bb739b7018d00771.css"   
+[Network Analyzer (40c0:36f8)]   (Sid:  4) Client -> Server @ : 435 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/components.css"   
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Client -> Server @ : 407 bytes (Service=HTTP)
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 10.100.22.34:8083   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 10.100.22.34:8083   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      (40c0:36f8)] "GET /assets/vendorUi/icons.css"   
+[Network Analyzer (40c0:36f8)]   (Sid:  6) Client -> Server @ : 411 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/bootstrap-c5ae98cdc147f655f96564c4340000c4.css"   
+[Network Analyzer (40c0:36f8)]   (Sid:  7) Client -> Server @ : 439 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  2) Server -> Client : 173 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 107.178.240.159:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (40c0:36f8)]   (Sid:  1) Server -> Client : 110 bytes  (Service=HTTP)
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 142.250.67.163:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (40c0:36f8)]   (Sid:  7) Server -> Client : 8192 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  7) Server -> Client : 12282 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  6) Server -> Client : 110 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendorUi/jquery/jquery-fdb24ba38c94d04e948de967076c64aa.js"   
+[Network Analyzer (40c0:36f8)]   (Sid:  6) Client -> Server @ : 436 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendorUi/bootstrap/bootstrap.min-79b5346433d3bdf736aab2379a008083.js"   
+[Network Analyzer (40c0:36f8)]   (Sid:  7) Client -> Server @ : 446 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  7) Server -> Client : 8192 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  7) Server -> Client : 2004 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/common/jquery.core-2521768e514d3a431ddca828a1bebd3c.js"   
+[Network Analyzer (40c0:36f8)]   (Sid:  7) Client -> Server @ : 432 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  7) Server -> Client : 1788 bytes  (Service=HTTP)
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 216.58.196.163:443   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      (40c0:36f8)] "GET /assets/vendorUi/notifyjs/dist/notify.min-a1134657dba6e98914066f2530604e68.js"   
+[Network Analyzer (40c0:36f8)]   (Sid:  7) Client -> Server @ : 447 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  7) Server -> Client : 3784 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendorUi/notifications/notify-metro-3463085bfd0a7cac9f983d075b271bca.js"   
+[Network Analyzer (40c0:36f8)]   (Sid:  7) Client -> Server @ : 449 bytes (Service=HTTP)
+[Network Analyzer (40c0:156c)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (40c0:156c)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (40c0:36f8)]   (Sid:  7) Server -> Client : 747 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer (40c0:36f8)]   (Sid:  3) Client -> Server @ : 1215 bytes (SSL)(Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/pvi_logo-3b00491e90ab9196bd3d5429e905d856.png"   
+[Network Analyzer (40c0:36f8)]   (Sid:  7) Client -> Server @ : 470 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  3) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  3) Server -> Client : 342 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  3) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  3) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:4cb8)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (40c0:36f8)]   (Sid:  6) Server -> Client : 8192 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  6) Server -> Client : 10661 bytes  (Service=HTTP)
+[Network Analyzer (40c0:4cb8)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (40c0:36f8)]   (Sid:  7) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  7) Server -> Client : 862 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /decide/?verbose=1&version=1&lib=web&token=94b5c311692e7c9d03cef9c9a7a32eaf&ip=1&_=1599033507526"   
+[Network Analyzer (40c0:36f8)]   (Sid:  8) Client -> Server @ : 438 bytes (SSL)(Service=HTTP)
+[Network Analyzer (40c0:34ec)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (40c0:34ec)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (40c0:36f8)]   (Sid:  4) Server -> Client : 1143 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=85"   
+[Network Analyzer (40c0:36f8)]   (Sid:  9) Client -> Server @ : 448 bytes (SSL)(Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  8) Server -> Client : 412 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  8) Server -> Client : 1259 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:3e84)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (40c0:3e84)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (40c0:36f8)] "GET /safebrowsing/csd/client_model_v5_ext_variation_0.pb"   
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Client -> Server @ : 383 bytes (SSL)(Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  9) Server -> Client : 379 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 668 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 68 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Server -> Client : 640 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  8) Client -> Server @ : 513 bytes (SSL)(Service=HTTP)
+[Web Request      (40c0:36f8)] "POST /track/?verbose=1&ip=1&_=1599033512508"   
+[Network Analyzer (40c0:36f8)]   (Sid:  8) Client -> Server @ : 1025 bytes (SSL)(Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  8) Server -> Client : 552 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 110 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/background-4c8c4fd7df1b6436735eac4cfed91698.jpg"   
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Client -> Server @ : 513 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/pv-btn-bg-fe78a517c666e4e5b987b878badafa68.jpg"   
+[Network Analyzer (40c0:36f8)]   (Sid:  4) Client -> Server @ : 512 bytes (Service=HTTP)
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 142.250.67.234:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (40c0:36f8)]   (Sid:  4) Server -> Client : 2013 bytes  (Service=HTTP)
+[Network Analyzer (40c0:4440)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (40c0:4440)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (40c0:36f8)] "GET /v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIfCcreAU4NsE5aEgkN541ADhIAGgASCQ3OQUx6EgAaAA==?alt=proto"   
+[Network Analyzer (40c0:36f8)]   (Sid: 11) Client -> Server @ : 550 bytes (SSL)(Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 11) Server -> Client : 664 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 1797 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /favicon.ico"   
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Client -> Server @ : 429 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Server -> Client : 3407 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 74.125.68.188:5228   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 142.250.67.67:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (40c0:38d4)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (40c0:38d4)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (40c0:36f8)]   (Sid: 12) Client -> Server @ : 154 bytes (SSL)
+[Network Analyzer (40c0:36f8)]   (Sid: 12) Server -> Client : 1 bytes (SSL)
+[Network Analyzer (40c0:36f8)]   (Sid: 12) Server -> Client : 65 bytes (SSL)
+[Network Analyzer (40c0:36f8)]   (Sid: 12) Server -> Client : 12 bytes (SSL)
+[Network Analyzer (40c0:4ac0)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (40c0:4ac0)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (40c0:36f8)]   (Sid: 13) Client -> Server @ : 1007 bytes (SSL)(Service=HTTP)
+[Web Request      (40c0:36f8)] "POST /service/update2/json?cup2key=10:2791769429&cup2hreq=50de0b540331515c67a7a8ad427f88ca72a489b057de64cb5b051ebdac008566"   
+[Network Analyzer (40c0:36f8)]   (Sid: 13) Client -> Server @ : 3741 bytes (SSL)(Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 13) Server -> Client : 1321 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 13) Server -> Client : 480 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 13) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer (40c0:36f8)]   (Sid:  6) Connection Terminated (by Server)
+[API Trapper      (1244:1da8)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[User action                 ] StartTransactionEvent ExportToExcel_01_OpenApplication [User action                 ] EndTransactionEvent ExportToExcel_01_OpenApplication [Network Analyzer (40c0:36f8)]   (Sid:  4) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent ExportToExcel_02_Login [API Trapper      (4380:4374)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (40c0:36f8)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 10.100.22.34:8083   (Service=)  (Sid= 14)  PROXIED!
+[Web Request      (40c0:36f8)] "POST /login/authenticate"   
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Client -> Server @ : 779 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 296 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /?token=d8f04a5b-7cbb-4d16-a457-7d98b81b106f"   
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Client -> Server @ : 666 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 3598 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/application-3d87bac6ca7e570033e3b49e320180b2.css"   
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Client -> Server @ : 540 bytes (Service=HTTP)
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 10.100.22.34:8083   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 10.100.22.34:8083   (Service=)  (Sid= 16)  PROXIED!
+[Web Request      (40c0:36f8)] "GET /assets/vendorUi/jquery/jquery-2.2.4-f3b292379cbb03d9a68dc04fb0ac6bf5.js"   
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:36f8)]   (Sid: 15) Client -> Server @ : 541 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/UIConstants-e05f20031f3c986ffd86b552402112e0.js"   
+[Network Analyzer (40c0:36f8)]   (Sid: 16) Client -> Server @ : 524 bytes (Service=HTTP)
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 10.100.22.34:8083   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (40c0:36f8)]   (Sid: 16) Server -> Client : 437 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/common/change-theme-d6b58272d1305acd108c19d477017de0.js"   
+[Network Analyzer (40c0:36f8)]   (Sid: 17) Client -> Server @ : 532 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 15) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 15) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 15) Server -> Client : 10699 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 12453 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/application-73702747dcb4dc1831955be89087898f.js"   
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Client -> Server @ : 524 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/PVAdmin-633ec218549f1fae0ce7d659fa347d7a.png"   
+[Network Analyzer (40c0:36f8)]   (Sid: 15) Client -> Server @ : 568 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 15) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 15) Server -> Client : 14025 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 10550 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 17) Server -> Client : 887 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /preference/loadTheme"   
+[Network Analyzer (40c0:36f8)]   (Sid: 17) Client -> Server @ : 524 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 17) Server -> Client : 332 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/materialdesignicons-webfont-af3f6dbe172a9c1aba77366a2ff630d1.woff2?v=2.1.99"   
+[Network Analyzer (40c0:36f8)]   (Sid: 17) Client -> Server @ : 598 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/OpenSans-Regular-cffb686d7d2f4682df8342bd4d276e09.woff2?v=1.1.0"   
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Client -> Server @ : 586 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/i18n/en.json"   
+[Network Analyzer (40c0:36f8)]   (Sid: 15) Client -> Server @ : 566 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 15) Server -> Client : 1042 bytes  (Service=HTTP)
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 142.250.67.67:443   (Service=)  (Sid= 18)  PROXIED!
+[Web Request      (40c0:36f8)] "GET /assets/fontawesome-webfont-af7ae505a9eed503f8b8e6982036873e.woff2?v=4.7.0"   
+[Network Analyzer (40c0:36f8)]   (Sid: 15) Client -> Server @ : 589 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Server -> Client : 10274 bytes  (Service=HTTP)
+[Network Analyzer (40c0:4040)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (40c0:4040)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (40c0:36f8)]   (Sid: 15) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 15) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 18) Client -> Server @ : 1101 bytes (SSL)(Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 15) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "POST /service/update2/json?cup2key=10:48215292&cup2hreq=fd7254302dfbf697016f2de9a3159a3fed9228f72833eab3075341678f707b90"   
+[Network Analyzer (40c0:36f8)]   (Sid: 18) Client -> Server @ : 5486 bytes (SSL)(Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 15) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 15) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 15) Server -> Client : 7841 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 17) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 17) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 17) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 17) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 17) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 17) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 17) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 18) Server -> Client : 1317 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 17) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 18) Server -> Client : 887 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 17) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 18) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 17) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 17) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 17) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 17) Server -> Client : 3187 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent ExportToExcel_02_Login [User action                 ] StartTransactionEvent ExportToExcel_03_NavigateToPVIntake [Network Analyzer (40c0:36f8)]   (Sid: 16) Connection Terminated (by Server)
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 10.100.22.243:8081   (Service=)  (Sid= 19)  PROXIED!
+[Web Request      (40c0:36f8)] "GET /"   
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Client -> Server @ : 515 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Server -> Client : 339 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /login/index"   
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Client -> Server @ : 580 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Server -> Client : 218 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /login/auth?format="   
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Client -> Server @ : 587 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Server -> Client : 255 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /auth?callBackUrl=http://10.100.22.243:8081/login/success"   
+[Network Analyzer (40c0:36f8)]   (Sid: 17) Client -> Server @ : 688 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 17) Server -> Client : 242 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /login/success?token=d8f04a5b-7cbb-4d16-a457-7d98b81b106f"   
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Client -> Server @ : 625 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Server -> Client : 200 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /"   
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Client -> Server @ : 569 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Server -> Client : 4231 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/app/dashboard/dashboard-manifest-b8c4a5998dad68d4595e4d0aa8d50016.css"   
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Client -> Server @ : 475 bytes (Service=HTTP)
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 10.100.22.243:8081   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Web Request      (40c0:36f8)] "GET /assets/application-13a1ddae267b7b6a32d12cfb1ac98e43.css"   
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Client -> Server @ : 454 bytes (Service=HTTP)
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 10.100.22.243:8081   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 10.100.22.243:8081   (Service=)  (Sid= 22)  PROXIED!
+[Web Request      (40c0:36f8)] "GET /assets/vendorUi/jquery/jquery-2.2.4-e72e6e97da5fd952079c33c415741fc6.js"   
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Client -> Server @ : 455 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/UIConstants-ee3587ab40d47b8bed173814ecf5a0be.js"   
+[Network Analyzer (40c0:36f8)]   (Sid: 22) Client -> Server @ : 438 bytes (Service=HTTP)
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 10.100.22.243:8081   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Server -> Client : 3309 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/common/change-theme-6ebd5f05979bc64dfe2d6f10b3e3b3db.js"   
+[Network Analyzer (40c0:36f8)]   (Sid: 23) Client -> Server @ : 446 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 10699 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 14) Connection Terminated (by Server)
+[Network Analyzer (40c0:36f8)]   (Sid: 15) Connection Terminated (by Server)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 12938 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/application-a0469687a4859320633b35ed9c5374ee.js"   
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Client -> Server @ : 438 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/attachmentViewer-manifest-b347c0c37643c7b9e173f4b09adae617.js"   
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Client -> Server @ : 459 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 22) Server -> Client : 437 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/app/dashboard/dashboard-manifest-10f1ed9d89cf396671bd4e3042b74253.js"   
+[Network Analyzer (40c0:36f8)]   (Sid: 22) Client -> Server @ : 459 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/PVIntake-241ae46808f3515f2be1c0c88ee0773b.png"   
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Client -> Server @ : 483 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Server -> Client : 3503 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 22) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 22) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 22) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 22) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 22) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 22) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 22) Server -> Client : 13484 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 3233 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 11267 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 23) Server -> Client : 887 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /preference/loadTheme"   
+[Network Analyzer (40c0:36f8)]   (Sid: 23) Client -> Server @ : 438 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 23) Server -> Client : 332 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/materialdesignicons-webfont-af3f6dbe172a9c1aba77366a2ff630d1.woff2?v=2.1.99"   
+[Network Analyzer (40c0:36f8)]   (Sid: 23) Client -> Server @ : 556 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/OpenSans-Regular-cffb686d7d2f4682df8342bd4d276e09.woff2?v=1.1.0"   
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Client -> Server @ : 544 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/pv-btn-bg-fe78a517c666e4e5b987b878badafa68.jpg"   
+[Network Analyzer (40c0:36f8)]   (Sid: 22) Client -> Server @ : 539 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/section-hd-bg-8eaf77fc4a1a47c48ca4b2e3d5a96340.jpg"   
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Client -> Server @ : 543 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /config/appConfig"   
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Client -> Server @ : 477 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 1915 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 22) Server -> Client : 2013 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/fontawesome-webfont-af7ae505a9eed503f8b8e6982036873e.woff2?v=4.7.0"   
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Client -> Server @ : 547 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Server -> Client : 1004 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /user/loadAllState?pageType=&section="   
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Client -> Server @ : 454 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 10274 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Server -> Client : 1477 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /task/referenceData?_=1599033581682"   
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Client -> Server @ : 452 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /config/loadServerTime?_=1599033581683"   
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Client -> Server @ : 498 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 328 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 7841 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/pv-btn-bg2-6efc4f00037bcaba0fee1e7b7d70f0be.jpg"   
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Client -> Server @ : 540 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/pv-btn-bg3-1e05f4eeb9f3efb885b2c05a0bea4ab4.jpg"   
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Client -> Server @ : 540 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /dashboard/personalStats?_=1599033581684"   
+[Network Analyzer (40c0:36f8)]   (Sid: 22) Client -> Server @ : 457 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Server -> Client : 646 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 1856 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 1851 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 22) Server -> Client : 445 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/glyphicons-halflings-regular-448c34a56d699c29117adc64c43affeb.woff2"   
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Client -> Server @ : 548 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /case/rest/list_columns/2?_=1599033581685"   
+[Network Analyzer (40c0:36f8)]   (Sid: 22) Client -> Server @ : 458 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /case/rest/list_columns/1?_=1599033581686"   
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Client -> Server @ : 458 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerJson/en-US.json?_=1599033581687"   
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Client -> Server @ : 477 bytes (Service=HTTP)
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 10.100.22.243:8081   (Service=)  (Sid= 24)  PROXIED!
+[Web Request      (40c0:36f8)] "GET /v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRJWCbbTSckCsq4oEgkNPQ6L4BIAGgASCQ2x4TvPEgAaABIJDRTyroQSABoAEgkNkcnz6RIAGgASCQ0iEwluEgAaABIJDQ6R6-ASABoAEgkNPSy82BIAGgASuQEJ9-BCt1SSGugSCQ1t2S9oEgAaABIJDT6MMNQSABoAEgkNqj7SyRIAGgASCQ1jZOYpEgAaABIJDRomdtISABoAEgkNXfAYABIAGgASCQ09LLzYEgAaABIJDRXavA4SABoAEgkNTSLKmBIAGgASCQ2Cw4RPEgAaABIJDTd7KU0SABoAEgkNlEEC9RIAGgASCQ03eylNEgAaABIJDcMMUPoSABoAEgkNHuP4PxIAGgASCQ2Cw4RPEgAaABIUCa00MRuDwhfjEgkN22E2ABIAGgASSwnIJ2hDJ5W13xIJDYBgppMSABoAEgkNNYZISxIAGgASCQ1y_pviEgAaABIJDZTU0MwSABoAEgkNu1zBxhIAGgASCQ1Qb3MEEgAaABJLCSV71EEe8VN_EgkNgGCmkxIAGgASCQ01hkhLEgAaABIJDXL-m-ISABoAEgkNlNTQzBIAGgASCQ27XMHGEgAaABIJDVBvcwQSABoA?alt=proto"   
+[Network Analyzer (40c0:36f8)]   (Sid: 11) Client -> Server @ : 1106 bytes (SSL)(Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerJson/predefinedSearch.json?_=1599033581688"   
+[Network Analyzer (40c0:36f8)]   (Sid: 24) Client -> Server @ : 488 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 11) Server -> Client : 884 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Server -> Client : 1294 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 22) Server -> Client : 1954 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 1980 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerJson/redactionReason.json?_=1599033581689"   
+[Network Analyzer (40c0:36f8)]   (Sid: 22) Client -> Server @ : 487 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerTemplates/commentTemplate.html?_=1599033581690"   
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Client -> Server @ : 492 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerTemplates/contextMenuTemplate.html?_=1599033581691"   
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Client -> Server @ : 496 bytes (Service=HTTP)
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 10.100.22.243:8081   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 14271 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 24) Server -> Client : 853 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "POST /user/loadState"   
+[Network Analyzer (40c0:36f8)]   (Sid: 25) Client -> Server @ : 648 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerTemplates/copyOverlayTemplate.html?_=1599033581692"   
+[Network Analyzer (40c0:36f8)]   (Sid: 24) Client -> Server @ : 496 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerTemplates/downloadOverlayTemplate.html?_=1599033581693"   
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Client -> Server @ : 500 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 22) Server -> Client : 519 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Server -> Client : 776 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerTemplates/esignOverlayTemplate.html?_=1599033581694"   
+[Network Analyzer (40c0:36f8)]   (Sid: 22) Client -> Server @ : 497 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 3214 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerTemplates/hyperlinkMenuTemplate.html?_=1599033581695"   
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Client -> Server @ : 498 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerTemplates/imageStampOverlayTemplate.html?_=1599033581696"   
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Client -> Server @ : 502 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 24) Server -> Client : 546 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerTemplates/overwriteOverlayTemplate.html?_=1599033581697"   
+[Network Analyzer (40c0:36f8)]   (Sid: 24) Client -> Server @ : 501 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 22) Server -> Client : 1200 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 954 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerTemplates/pageRedactionOverlayTemplate.html?_=1599033581698"   
+[Network Analyzer (40c0:36f8)]   (Sid: 22) Client -> Server @ : 505 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Server -> Client : 760 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerTemplates/printOverlayTemplate.html?_=1599033581699"   
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Client -> Server @ : 497 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerTemplates/printTemplate.html?_=1599033581700"   
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Client -> Server @ : 490 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 24) Server -> Client : 563 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerTemplates/redactionReasonTemplate.html?_=1599033581701"   
+[Network Analyzer (40c0:36f8)]   (Sid: 24) Client -> Server @ : 500 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Server -> Client : 1531 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 675 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 22) Server -> Client : 1203 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 20) Server -> Client : 3281 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerTemplates/unsavedChangesOverlayTemplate.html?_=1599033581702"   
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Client -> Server @ : 506 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "POST /dashboard/updateWidget"   
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Client -> Server @ : 1343 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerTemplates/viewerTemplate.html?_=1599033581703"   
+[Network Analyzer (40c0:36f8)]   (Sid: 22) Client -> Server @ : 491 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 23) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 23) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 23) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 23) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 23) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 23) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 23) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 23) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 23) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 23) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 23) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 23) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 23) Server -> Client : 3187 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 25) Server -> Client : 886 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 572 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Server -> Client : 312 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 22) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 22) Server -> Client : 1064 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "POST /case/rest/list/2"
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Client -> Server @ : 4096 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Client -> Server @ : 15455 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "POST /dashboard/updateWidget"   
+[Network Analyzer (40c0:36f8)]   (Sid: 22) Client -> Server @ : 1343 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "POST /user/loadState"   
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Client -> Server @ : 645 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 24) Server -> Client : 603 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 22) Server -> Client : 312 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 827 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "POST /case/rest/list/1"
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Client -> Server @ : 4705 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Client -> Server @ : 14640 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRJWCbbTSckCsq4oEgkNPQ6L4BIAGgASCQ2x4TvPEgAaABIJDRTyroQSABoAEgkNkcnz6RIAGgASCQ0iEwluEgAaABIJDQ6R6-ASABoAEgkNPSy82BIAGgAS2gEJn_48AeVLTwkSCQ1t2S9oEgAaABIJDb2Fgw8SABoAEgkNPoww1BIAGgASCQ29hYMPEgAaABIJDb2Fgw8SABoAEgkNqj7SyRIAGgASCQ1jZOYpEgAaABIJDRomdtISABoAEgkNXfAYABIAGgASCQ09LLzYEgAaABIJDRXavA4SABoAEgkNTSLKmBIAGgASCQ2Cw4RPEgAaABIJDTd7KU0SABoAEgkNlEEC9RIAGgASCQ03eylNEgAaABIJDcMMUPoSABoAEgkNHuP4PxIAGgASCQ2Cw4RPEgAaABL8BAlFG2xLDLPTYhIJDT6BoJYSABoAEgkNu-D_oRIAGgASCQ2RYZVOEgAaABIJDZFhlU4SABoAEgkNkWGVThIAGgASCQ1KGMCSEgAaABIJDfiAz5gSABoAEgkNfMlrABIAGgASCQ3QBs7QEgAaABIJDfJSmBgSABoAEgkNaKxFaBIAGgASCQ0qYS8JEgAaABIJDVSlSRkSABoAEgkNIxo6yxIAGgASCQ1gbNIuEgAaABIJDcmvqAsSABoAEgkNEy-BRRIAGgASCQ1HK3LzEgAaABIJDdZDNVASABoAEgkN8lKYGBIAGgASCQ1orEVoEgAaABIJDSphLwkSABoAEgkNVKVJGRIAGgASCQ0jGjrLEgAaABIJDWBs0i4SABoAEgkNya-oCxIAGgASCQ0TL4FFEgAaABIJDUcrcvMSABoAEgkN1kM1UBIAGgASCQ3yUpgYEgAaABIJDfJSmBgSABoAEgkNW5q0yhIAGgASCQ1orEVoEgAaABIJDdyExxISABoAEgkNEvTcLBIAGgASCQ1-sAssEgAaABIJDSphLwkSABoAEgkNstz98xIAGgASCQ23w3JGEgAaABIJDUcrcvMSABoAEgkN1kM1UBIAGgASCQ3Jr6gLEgAaABIJDfJSmBgSABoAEgkNW5q0yhIAGgASCQ1orEVoEgAaABIJDdyExxISABoAEgkNEvTcLBIAGgASCQ1-sAssEgAaABIJDSphLwkSABoAEgkNstz98xIAGgASCQ23w3JGEgAaABIJDUcrcvMSABoAEgkN1kM1UBIAGgASCQ3Jr6gLEgAaABIJDfJSmBgSABoAEgkNxHgzJRIAGgASCQ2afUpSEgAaAA==?alt=proto"   
+[Network Analyzer (40c0:36f8)]   (Sid: 11) Client -> Server @ : 1770 bytes (SSL)(Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Server -> Client : 10564 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/common/hbs-templates/casePrioritySelect.hbs"   
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Client -> Server @ : 468 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 11) Server -> Client : 1049 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Server -> Client : 449 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/common/hbs-templates/viewAction.hbs"   
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Client -> Server @ : 460 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Server -> Client : 1311 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /case/getActionViewList?pageId=2&sourceDbId=1&_=1599033581704"   
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Client -> Server @ : 478 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Server -> Client : 1497 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 3118 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRLqBQk13qDZW1Ze5hIJDT6BoJYSABoAEgkNu-D_oRIAGgASCQ2RYZVOEgAaABIJDZFhlU4SABoAEgkNkWGVThIAGgASCQ1KGMCSEgAaABIJDfiAz5gSABoAEgkNfMlrABIAGgASCQ3QBs7QEgAaABIJDfJSmBgSABoAEgkNaKxFaBIAGgASCQ0qYS8JEgAaABIJDVSlSRkSABoAEgkNIxo6yxIAGgASCQ1gbNIuEgAaABIJDcmvqAsSABoAEgkNEy-BRRIAGgASCQ1HK3LzEgAaABIJDdZDNVASABoAEgkN8lKYGBIAGgASCQ1orEVoEgAaABIJDSphLwkSABoAEgkNVKVJGRIAGgASCQ0jGjrLEgAaABIJDWBs0i4SABoAEgkNya-oCxIAGgASCQ0TL4FFEgAaABIJDUcrcvMSABoAEgkN1kM1UBIAGgASCQ2UkJL6EgAaABIJDZSQkvoSABoAEgkNlJCS-hIAGgASCQ2UkJL6EgAaABIJDZSQkvoSABoAEgkN8lKYGBIAGgASCQ3yUpgYEgAaABIJDVuatMoSABoAEgkNaKxFaBIAGgASCQ3chMcSEgAaABIJDRL03CwSABoAEgkNfrALLBIAGgASCQ0qYS8JEgAaABIJDbLc_fMSABoAEgkNt8NyRhIAGgASCQ1HK3LzEgAaABIJDdZDNVASABoAEgkNya-oCxIAGgASCQ3yUpgYEgAaABIJDVuatMoSABoAEgkNaKxFaBIAGgASCQ3chMcSEgAaABIJDRL03CwSABoAEgkNfrALLBIAGgASCQ0qYS8JEgAaABIJDbLc_fMSABoAEgkNt8NyRhIAGgASCQ1HK3LzEgAaABIJDdZDNVASABoAEgkNya-oCxIAGgASCQ2UkJL6EgAaABIJDZSQkvoSABoAEgkNlJCS-hIAGgASCQ2UkJL6EgAaABIJDZSQkvoSABoAEgkN8lKYGBIAGgASCQ3EeDMlEgAaABIJDZp9SlISABoA?alt=proto"   
+[Network Analyzer (40c0:36f8)]   (Sid: 11) Client -> Server @ : 1502 bytes (SSL)(Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 11) Server -> Client : 931 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 17) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent ExportToExcel_03_NavigateToPVIntake [User action                 ] Pausing...  [User action                 ] StartTransactionEvent ExportToExcel_04_IntakeQueueMyCases [Web Request      (40c0:36f8)] "GET /intake/queue"   
+[Network Analyzer (40c0:36f8)]   (Sid: 26) Client -> Server @ : 558 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 26) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 26) Server -> Client : 13694 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerJson/en-US.json?_=1599033650899"   
+[Network Analyzer (40c0:36f8)]   (Sid: 26) Client -> Server @ : 489 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerJson/predefinedSearch.json?_=1599033650900"   
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Client -> Server @ : 500 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerJson/redactionReason.json?_=1599033650901"   
+[Network Analyzer (40c0:36f8)]   (Sid: 29) Client -> Server @ : 499 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerTemplates/commentTemplate.html?_=1599033650902"   
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Client -> Server @ : 504 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerTemplates/contextMenuTemplate.html?_=1599033650903"   
+[Network Analyzer (40c0:36f8)]   (Sid: 27) Client -> Server @ : 508 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerTemplates/copyOverlayTemplate.html?_=1599033650904"   
+[Network Analyzer (40c0:36f8)]   (Sid: 30) Client -> Server @ : 508 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerTemplates/downloadOverlayTemplate.html?_=1599033650905"   
+[Network Analyzer (40c0:36f8)]   (Sid: 28) Client -> Server @ : 512 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 26) Server -> Client : 5390 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 28) Server -> Client : 675 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 29) Server -> Client : 519 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 30) Server -> Client : 546 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Server -> Client : 776 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 853 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerTemplates/esignOverlayTemplate.html?_=1599033650906"   
+[Network Analyzer (40c0:36f8)]   (Sid: 26) Client -> Server @ : 509 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerTemplates/hyperlinkMenuTemplate.html?_=1599033650907"   
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Client -> Server @ : 510 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerTemplates/imageStampOverlayTemplate.html?_=1599033650908"   
+[Network Analyzer (40c0:36f8)]   (Sid: 29) Client -> Server @ : 514 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerTemplates/overwriteOverlayTemplate.html?_=1599033650909"   
+[Network Analyzer (40c0:36f8)]   (Sid: 30) Client -> Server @ : 513 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerTemplates/pageRedactionOverlayTemplate.html?_=1599033650910"   
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Client -> Server @ : 517 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 27) Server -> Client : 3214 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerTemplates/printOverlayTemplate.html?_=1599033650911"   
+[Network Analyzer (40c0:36f8)]   (Sid: 28) Client -> Server @ : 509 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerTemplates/printTemplate.html?_=1599033650912"   
+[Network Analyzer (40c0:36f8)]   (Sid: 27) Client -> Server @ : 502 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 26) Server -> Client : 1200 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 29) Server -> Client : 954 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Server -> Client : 760 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 1203 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerTemplates/redactionReasonTemplate.html?_=1599033650913"   
+[Network Analyzer (40c0:36f8)]   (Sid: 29) Client -> Server @ : 512 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 28) Server -> Client : 1531 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerTemplates/unsavedChangesOverlayTemplate.html?_=1599033650914"   
+[Network Analyzer (40c0:36f8)]   (Sid: 26) Client -> Server @ : 518 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 30) Server -> Client : 563 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 27) Server -> Client : 3281 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendor/documentViewerTemplates/viewerTemplate.html?_=1599033650915"   
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Client -> Server @ : 503 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /case/rest/list_columns/2?_=1599033650916"   
+[Network Analyzer (40c0:36f8)]   (Sid: 30) Client -> Server @ : 470 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 29) Server -> Client : 603 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 1064 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 30) Server -> Client : 1954 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 26) Server -> Client : 572 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /config/loadServerTime?_=1599033650917"   
+[Network Analyzer (40c0:36f8)]   (Sid: 30) Client -> Server @ : 510 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 30) Server -> Client : 328 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "POST /user/saveState"
+[Network Analyzer (40c0:36f8)]   (Sid: 30) Client -> Server @ : 4096 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 30) Client -> Server @ : 9305 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "POST /user/saveState"
+[Network Analyzer (40c0:36f8)]   (Sid: 26) Client -> Server @ : 4096 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 26) Client -> Server @ : 9305 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "POST /case/rest/list/2"
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Client -> Server @ : 4096 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Client -> Server @ : 15474 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 3046 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 26) Server -> Client : 305 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 30) Server -> Client : 305 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /case/getActionViewList?pageId=2&sourceDbId=1&_=1599033650918"   
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Client -> Server @ : 490 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 1497 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRKHBQl7BXboL_PrKRIJDT6BoJYSABoAEgkNu-D_oRIAGgASCQ2RYZVOEgAaABIJDZFhlU4SABoAEgkNkWGVThIAGgASCQ1KGMCSEgAaABIJDfiAz5gSABoAEgkNfMlrABIAGgASCQ3QBs7QEgAaABIJDZtke10SABoAEgkN8lKYGBIAGgASCQ1orEVoEgAaABIJDSphLwkSABoAEgkNVKVJGRIAGgASCQ0jGjrLEgAaABIJDWBs0i4SABoAEgkNya-oCxIAGgASCQ0TL4FFEgAaABIJDUcrcvMSABoAEgkN1kM1UBIAGgASCQ3yUpgYEgAaABIJDWisRWgSABoAEgkNKmEvCRIAGgASCQ1UpUkZEgAaABIJDSMaOssSABoAEgkNYGzSLhIAGgASCQ3Jr6gLEgAaABIJDRMvgUUSABoAEgkNRyty8xIAGgASCQ3WQzVQEgAaABIJDZSQkvoSABoAEgkNlJCS-hIAGgASCQ2UkJL6EgAaABIJDZSQkvoSABoAEgkNlJCS-hIAGgASCQ2UkJL6EgAaABIJDZSQkvoSABoAEgkNlJCS-hIAGgASCQ2UkJL6EgAaABIJDZSQkvoSABoAEgkNlJCS-hIAGgASCQ2UkJL6EgAaABIJDZSQkvoSABoAEgkNlJCS-hIAGgASCQ2UkJL6EgAaABIJDZSQkvoSABoAEgkNlJCS-hIAGgASCQ2UkJL6EgAaABIJDZSQkvoSABoAEgkNlJCS-hIAGgASCQ2UkJL6EgAaABIJDZSQkvoSABoAEgkNlJCS-hIAGgASCQ2UkJL6EgAaABIJDZSQkvoSABoAEgkN8lKYGBIAGgASCQ3EeDMlEgAaABIJDZp9SlISABoA?alt=proto"   
+[Network Analyzer (40c0:36f8)]   (Sid: 11) Client -> Server @ : 1370 bytes (SSL)(Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 11) Server -> Client : 885 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent ExportToExcel_04_IntakeQueueMyCases [User action                 ] StartTransactionEvent ExportToExcel_05_IntakeQueueAllCases [Web Request      (40c0:36f8)] "POST /case/rest/list/2"
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Client -> Server @ : 4096 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Client -> Server @ : 15468 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 13470 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "POST /user/saveState"
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Client -> Server @ : 4096 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Client -> Server @ : 9299 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 305 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent ExportToExcel_05_IntakeQueueAllCases [User action                 ] StartTransactionEvent ExportToExcel_06_FilterIntakeCases [Network Analyzer (40c0:36f8)]   (Sid: 28) Connection Terminated (by Server)
+[Network Analyzer (40c0:36f8)]   (Sid: 19) Connection Terminated (by Server)
+[Network Analyzer (40c0:36f8)]   (Sid: 27) Connection Terminated (by Server)
+[Network Analyzer (40c0:36f8)]   (Sid: 29) Connection Terminated (by Server)
+[Network Analyzer (40c0:36f8)]   (Sid: 30) Connection Terminated (by Server)
+[Network Analyzer (40c0:36f8)]   (Sid: 26) Connection Terminated (by Server)
+[Web Request      (40c0:36f8)] "POST /user/saveState"   
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Client -> Server @ : 1384 bytes (Service=HTTP)
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 10.100.22.243:8081   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer (40c0:36f8)]   (Sid: 21) Server -> Client : 305 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "POST /case/rest/list/2"
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Client -> Server @ : 16384 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Client -> Server @ : 3190 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Server -> Client : 3477 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "POST /user/saveState"
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Client -> Server @ : 4715 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Client -> Server @ : 8690 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Server -> Client : 305 bytes  (Service=HTTP)
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 216.58.199.170:443   (Service=)  (Sid= 32)  PROXIED!
+[User action                 ] EndTransactionEvent ExportToExcel_06_FilterIntakeCases [Network Analyzer (40c0:4b90)]   (Sid: 32) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (40c0:4b90)]   (Sid: 32) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (40c0:36f8)] "GET /v4/threatListUpdates:fetch?$req=ChwKDGdvb2dsZWNocm9tZRIMODUuMC40MTgzLjgzGikIBRABGhsKDQgFEAYYASIDMDAxMAEQtZoJGgIYBzwQx6siBCABIAIoARopCAEQARobCg0IARAGGAEiAzAwMTABELDpBxoCGAfZux0FIgQgASACKAEaKQgDEAEaGwoNCAMQBhgBIgMwMDEwARCv8gcaAhgHpr_e-yIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQqIYIGgIYB3nW9NYiBCABIAIoARonCAEQARoZCg0IARAGGAEiAzAwMTADEBQaAhgHMbHJSCIEIAEgAigDGigIARAIGhoKDQgBEAgYASIDMDAxMAQQzRsaAhgH5QfbeCIEIAEgAigEGicICRABGhkKDQgJEAYYASIDMDAxMAYQAxoCGAd8Zz-3IgQgASACKAYaKAgPEAEaGgoNCA8QBhgBIgMwMDEwARDnPRoCGAe0vGnRIgQgASACKAEaJwgKEAgaGQoNCAoQCBgBIgMwMDEwARAGGgIYB7Zue30iBCABIAIoARonCAkQARoZCg0ICRAGGAEiAzAwMTABEB0aAhgHU4lufSIEIAEgAigBGigICBABGhoKDQgIEAYYASIDMDAxMAEQ3wkaAhgHo2xXDCIEIAEgAigBGigIDRABGhoKDQgNEAYYASIDMDAxMAEQtnoaAhgHBiTu1CIEIAEgAigBGikIDhABGhsKDQgOEAYYASIDMDAxMAEQt5kEGgIYB6E4Q1YiBCABIAIoARooCBAQARoaCg0IEBAGGAEiAzAwMTABELkFGgIYByShAt4iBCABIAIoASICCAM=&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (40c0:36f8)]   (Sid: 32) Client -> Server @ : 1276 bytes (SSL)(Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 32) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 32) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 32) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 32) Server -> Client : 1308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 32) Server -> Client : 217 bytes (SSL) (Service=HTTP)
+[User action                 ] StartTransactionEvent ExportToExcel_07_FilterPageSize_100 [Web Request      (40c0:36f8)] "POST /case/rest/list/2"
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Client -> Server @ : 4717 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Client -> Server @ : 14858 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Server -> Client : 8192 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Server -> Client : 71 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "POST /user/saveState"
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Client -> Server @ : 4715 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Client -> Server @ : 8691 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Server -> Client : 305 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent ExportToExcel_07_FilterPageSize_100 [Network Analyzer (40c0:36f8)]   (Sid: 21) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent ExportToExcel_08_ExportToExcel [Web Request      (40c0:36f8)] "GET /assets/common/hbs-templates/bulkAction.hbs"   
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Client -> Server @ : 472 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Server -> Client : 571 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "POST /case/list/export?pageTypeId=2"
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Client -> Server @ : 4730 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Client -> Server @ : 14858 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Server -> Client : 11297 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /export/downloadListingReport/?fileName=/home/ec2-user/apps/tomcatProcessor/temp/Intake_Queue_20200901080145.xlsx"   
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Client -> Server @ : 670 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Server -> Client : 13073 bytes  (Service=HTTP)
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 172.217.166.110:443   (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer (40c0:1308)]   (Sid: 33) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (40c0:1308)]   (Sid: 33) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (40c0:36f8)]   (Sid: 33) Client -> Server @ : 631 bytes (SSL)(Service=HTTP)
+[Web Request      (40c0:36f8)] "POST /safebrowsing/clientreport/download?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (40c0:36f8)]   (Sid: 33) Client -> Server @ : 3512 bytes (SSL)(Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 33) Server -> Client : 722 bytes (SSL) (Service=HTTP)
+[API Trapper      (47f0:1e2c)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[User action                 ] EndTransactionEvent ExportToExcel_08_ExportToExcel [User action                 ] StartTransactionEvent ExportToExcel_09_FilterPageSize_25 [Web Request      (40c0:36f8)] "POST /case/rest/list/2"
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Client -> Server @ : 4096 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Client -> Server @ : 15478 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Server -> Client : 3477 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "POST /user/saveState"
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Client -> Server @ : 4096 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Client -> Server @ : 9309 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Server -> Client : 305 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent ExportToExcel_09_FilterPageSize_25 [User action                 ] StartTransactionEvent ExportToExcel_10_ClearFilter [Web Request      (40c0:36f8)] "POST /user/saveState"   
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Client -> Server @ : 1374 bytes (Service=HTTP)
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 10.100.22.243:8081   (Service=)  (Sid= 34)  PROXIED!
+[Network Analyzer (40c0:36f8)]   (Sid: 31) Server -> Client : 305 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "POST /case/rest/list/2"
+[Network Analyzer (40c0:36f8)]   (Sid: 34) Client -> Server @ : 16384 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 34) Client -> Server @ : 3180 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 34) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 34) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 34) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 34) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 34) Server -> Client : 13470 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "POST /user/saveState"
+[Network Analyzer (40c0:36f8)]   (Sid: 34) Client -> Server @ : 8192 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 34) Client -> Server @ : 5203 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 34) Server -> Client : 305 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent ExportToExcel_10_ClearFilter [User action                 ] StartTransactionEvent ExportToExcel_11_IntakeQueueMyCases [Web Request      (40c0:36f8)] "POST /case/rest/list/2"
+[Network Analyzer (40c0:36f8)]   (Sid: 34) Client -> Server @ : 4096 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 34) Client -> Server @ : 15474 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 34) Server -> Client : 3046 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "POST /user/saveState"
+[Network Analyzer (40c0:36f8)]   (Sid: 34) Client -> Server @ : 4096 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 34) Client -> Server @ : 9305 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer (40c0:36f8)]   (Sid: 34) Server -> Client : 305 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent ExportToExcel_11_IntakeQueueMyCases [Network Analyzer (40c0:36f8)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer (40c0:36f8)]   (Sid:  9) Connection Terminated (by Server)
+[Network Analyzer (40c0:36f8)]   (Sid: 10) Connection Terminated (by Server)
+[Network Analyzer (40c0:36f8)]   (Sid:  8) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent ExportToExcel_12_NavigateToPVAdmin [Network Analyzer (40c0:36f8)]   (Sid: 31) Connection Terminated (by Server)
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 10.100.22.34:8083   (Service=)  (Sid= 35)  PROXIED!
+[Web Request      (40c0:36f8)] "GET /"   
+[Network Analyzer (40c0:36f8)]   (Sid: 35) Client -> Server @ : 602 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 35) Server -> Client : 3598 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/i18n/en.json"   
+[Network Analyzer (40c0:36f8)]   (Sid: 35) Client -> Server @ : 637 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 35) Server -> Client : 123 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent ExportToExcel_12_NavigateToPVAdmin [User action                 ] StartTransactionEvent ExportToExcel_13_LogOut [Web Request      (40c0:36f8)] "GET /logout"   
+[Network Analyzer (40c0:36f8)]   (Sid: 35) Client -> Server @ : 595 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 35) Server -> Client : 167 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /logoff"   
+[Network Analyzer (40c0:36f8)]   (Sid: 35) Client -> Server @ : 595 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 35) Server -> Client : 313 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /external"   
+[Network Analyzer (40c0:36f8)]   (Sid: 35) Client -> Server @ : 597 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 35) Server -> Client : 1481 bytes  (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendorUi/bootstrap.min.css"   
+[Network Analyzer (40c0:36f8)]   (Sid: 35) Client -> Server @ : 483 bytes (Service=HTTP)
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 10.100.22.34:8083   (Service=)  (Sid= 36)  PROXIED!
+[Network Analyzer (40c0:264c)] Address lookup for DESKTOP-60D6L4H = 172.28.2.13
+[Network Analyzer (40c0:264c)] Request Connection: Remote Server @ 10.100.22.34:8083   (Service=)  (Sid= 37)  PROXIED!
+[Web Request      (40c0:36f8)] "GET /assets/components.css"   
+[Network Analyzer (40c0:36f8)]   (Sid: 36) Client -> Server @ : 471 bytes (Service=HTTP)
+[Web Request      (40c0:36f8)] "GET /assets/vendorUi/icons.css"   
+[Network Analyzer (40c0:36f8)]   (Sid: 37) Client -> Server @ : 475 bytes (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 35) Server -> Client : 110 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 34) Connection Terminated (by Server)
+[Network Analyzer (40c0:36f8)]   (Sid: 36) Server -> Client : 110 bytes  (Service=HTTP)
+[Network Analyzer (40c0:36f8)]   (Sid: 37) Server -> Client : 110 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent ExportToExcel_13_LogOut [Network Analyzer (40c0:36f8)]   (Sid: 13) Connection Terminated (by Server)

@@ -1,0 +1,14 @@
+POST /dashboard/updateWidget HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Referer: http://10.100.22.243:8081/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate
+Accept: application/json, text/javascript, */*; q=0.01
+Origin: http://10.100.22.243:8081
+X-CSRF-TOKEN: 3aab58ce-d4bd-40c0-ba13-710bfc6d6306
+Connection: Keep-Alive
+Host: 10.100.22.243:8081
+Cookie: AuthType=Database; SESSION=015ed174-350c-464e-b090-b2c01162a343
+Content-Length: 687
+

@@ -1,0 +1,11 @@
+[t94]
+FileName1=t94_loadServerTime.json
+URL1=http://10.100.22.243:8081/config/loadServerTime?_=1599033614295
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_94.xml
+RequestHeaderFile=t94_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t94_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

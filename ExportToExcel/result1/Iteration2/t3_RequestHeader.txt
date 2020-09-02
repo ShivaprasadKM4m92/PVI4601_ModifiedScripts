@@ -1,0 +1,15 @@
+POST /login/authenticate HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Referer: http://10.100.22.34:8083/external
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+Origin: http://10.100.22.34:8083
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+Host: 10.100.22.34:8083
+Cookie: SESSION=682bb05e-4a0c-4e62-b1ff-ab49ba53ab68; AuthType=Database
+Content-Length: 53
+

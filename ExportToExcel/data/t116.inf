@@ -1,0 +1,11 @@
+[t116]
+FileName1=t116_2.json
+URL1=http://10.100.22.243:8081/case/rest/list_columns/2?_=1599033633096
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_116.xml
+RequestHeaderFile=t116_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t116_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

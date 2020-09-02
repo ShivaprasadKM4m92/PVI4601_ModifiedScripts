@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Project\PVI\Scripts\CaseUpdate\ExportToExcel
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\project\pvi\scripts\caseupdate\exporttoexcel\\logfile.log
+c:\project\pvi\scripts\caseupdate\exporttoexcel\\combined_ExportToExcel.c
+c:\project\pvi\scripts\caseupdate\exporttoexcel\\pre_cci.c
